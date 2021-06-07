@@ -1,0 +1,40 @@
+    body {
+     background-image: url("https://i.ibb.co/1TZGpTK/Whats-App-Image-2021-05-26-at-5-10-08-PM.jpg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+   }
+   
+   input[type=text], select, textarea {
+     width: 100%; 
+     padding: 12px; 
+     border: 1px solid #ccc; 
+     border-radius: 4px; /
+     box-sizing: border-box; 
+     margin-top: 6px; 
+     margin-bottom: 16px; 
+     resize: vertical 
+   }
+   
+   input[type=submit] {
+     background-color: #04AA6D;
+     color: white;
+     padding: 12px 20px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     margin-left: 340;
+   }
+   
+   
+   input[type=submit]:hover {
+     background-color: #45a049;
+   }
+   
+   
+   .container {
+     padding: 50px;
+     width: 50%;
+     background-color: rgb(255, 255, 255);
+     margin-left: 370px;
+   }

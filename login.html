@@ -1,0 +1,55 @@
+<html>
+<head>
+  <link rel="icon" href="logo.png">
+  <link rel="stylesheet" href="login.css">
+</head>
+<title>
+ Genie Store - Login 
+	</title>
+	<body>
+		<form action="homepage.html" class="form" name="RegForm" onsubmit="return GEEKFORGEEKS()" method="post">
+			<div class="imgcontainer">
+			  <img src="logo.png" alt="Avatar" class="avatar">
+			</div>
+		  
+			<div class="container">
+			  <label for="uname"><b>Username</b></label>
+			  <input type="text" placeholder="Enter Username" name="EMail" >
+		  
+			  <label for="psw"><b>Password</b></label>
+			  <input type="password" placeholder="Enter Password" name="Password">
+		  
+			  <button type="submit" class="subit">Login</button>
+			  <label>
+				<input type="checkbox" checked="checked" name="remember"> Remember me
+			  </label>
+			</div>
+		  
+			<div class="container" style="background-color:#f1f1f1">
+			  <button type="button" class="cancelbtn"><a href="homepage.html" style=" text-decoration: none;color:white"">Cancel</a></button>
+        <button type="button" class="signup"><a href="signup.html" style=" text-decoration: none; color:  rgb(0, 0, 0);"">Signup</a></button>
+			  <span class="psw">Forgot <a href="#">password?</a></span>
+			</div>
+		  </form>
+
+              <script>
+                function GEEKFORGEEKS() {
+                              var email = document.forms["RegForm"]["EMail"];
+                              var password = document.forms["RegForm"]["Password"];
+                              if (email.value == "") {
+                                window.alert(
+                                  "Kindly, enter a valid username.");
+                                email.focus();
+                                return false;
+                              }
+                            
+                              if (password.value == "") {
+                                window.alert("Kindly, enter your password.");
+                                password.focus();
+                                return false;
+                              }
+                              return true;
+                            }
+                      </script>
+		</body>
+</html>
